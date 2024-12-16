@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="tej_style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1><br>
+            <nav>
+                <ul class="nav">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills </a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2><br>
+            <img class ="img1" src="data:image/jpeg;base64,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"><br><br>
+            <p><b><h3>Hi! I'm Tejaswani Mishra </h3></b> a B.Tech 1st year student in Computer Science and Engineering at KIET GROUP OF INSTITUTIONS,ghaziabad and also a passionate Web developer and coder. I specialize in creating user-friendly websites. I am always ready to learn, innovate and explore new things that helps me develop my skills. Other than coding and web designing I love sketching  and playing badminton and also I am a music lover. I am looking for new opportunities to explore more in this world of tech. Let's connect with each other and  explore our skills .</p>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <img src="images/project1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p> FORMS </p>
+                </div>
+                <div class="project">
+                    <img src="images/project2.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>WEBPAGE</p>
+                </div>
+                <div class="project">
+                    <img src="images/project3.jpg" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>PORTFOLIO</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2><br>
+            <ul type="bullet">
+                <li><b>Html</li>
+                <li>Css</li>
+                <Li>JavaScript</Li>
+                <li>Python</li>
+                <li>C</li>
+            </ul>
+        </div>
+
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2><br>
+            <h4 ><u>Email</u>: </h4><p>tejaswani0009@gmail.com</p><br>
+            <h4 ><u>Contact info.</u> : </h4><P>63XXXXXX16</P><br>
+            <h4 ><u>Linkedin Id:</u></h4> 
+            <a href="https://www.linkedin.com/in/tejaswani-mishra-930b08328">linkedin</a><br><br>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="abc123@gmail.com" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="your message" required></textarea>
+                <button type="submit">Send</button>
+            </form><br>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 tejaswani mishra. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+#CSS
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+body{
+    background-color: rgba(22, 127, 129, 0.694);
+}
+.img1{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border:10px solid black
+}
+
+/* Header */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+.about {
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Projects Section */
+.projects {
+    padding: 40px 0;
+}
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 0;
+    text-align:center
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+input, textarea, button {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
